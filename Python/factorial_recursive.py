@@ -1,13 +1,13 @@
 def factorial_recursive(n):
 	"""
 	Description:
-        Calculate and return the factorial of 'n' (n!),
-		using a recursive approach.
+		Calculate and return the factorial of 'n' (n!);
+		using a recusive approach.
 	
 	Arguments:
-        n: Integer >= 0
+		n: Integer >= 0
 	
-	Returns: 
+	Returns:
 		int: Factorial of 'n' (n!)
 	"""
 	assert isinstance(n, int) and n >= 0
