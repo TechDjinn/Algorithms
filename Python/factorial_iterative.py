@@ -1,8 +1,8 @@
-def factorial_recursive(n):
+def factorial_iterative(n):
 	"""
 	Description:
 		Calculate and return the factorial of 'n' (n!);
-		using a recusive approach.
+		using a iterative approach.
 	
 	Arguments:
 		n: Integer >= 0
@@ -12,8 +12,9 @@ def factorial_recursive(n):
 	"""
 	assert isinstance(n, int) and n >= 0, "n must be positive int"
 	
-	# Find n! using recursion.
-	if n <= 1:
-		return 1
-	else:
-		return n * factorial_recursive(n-1)
+	# Find n! using an iterative approach.
+	result = 1
+	for i in range(1, n + 1):
+		result *= i
+
+	return result
