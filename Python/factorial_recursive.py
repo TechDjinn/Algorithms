@@ -3,6 +3,7 @@ def factorial_recursive(n):
 	Description:
 		Calculate and return the factorial of 'n' (n!);
 		using a recusive approach.
+		Time complexity: O(n)
 	
 	Arguments:
 		n: Integer >= 0
