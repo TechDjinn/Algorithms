@@ -6,10 +6,10 @@ def factorial_recursive(n):
 	
 	Arguments:
         n: Integer >= 0
-
-    Returns:
-        int: Factorial of 'n' (n!)
-    """
+	
+	Returns: 
+		int: Factorial of 'n' (n!)
+	"""
 	assert isinstance(n, int) and n >= 0
 	
 	# Find n! using recursion.
