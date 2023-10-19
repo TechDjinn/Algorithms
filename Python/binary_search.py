@@ -3,7 +3,7 @@ def binary_search(element_to_find, list_to_search):
     Description:
         Perform a binary search to find if the target element is in the list.
 
-    Args:
+    Arguments:
         element_to_find (any): The element to search for.
         list_to_search (list): The list in which to perform the search.
 
