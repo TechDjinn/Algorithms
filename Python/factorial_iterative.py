@@ -3,6 +3,7 @@ def factorial_iterative(n):
 	Description:
 		Calculate and return the factorial of 'n' (n!);
 		using a iterative approach.
+		Time complexity: O(n)
 	
 	Arguments:
 		n: Integer >= 0
