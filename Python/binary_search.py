@@ -11,6 +11,15 @@ def binary_search(element_to_find, list_to_search):
         bool: True if the target element is found, False otherwise.
     """
     assert isinstance(list_to_search, list), "'list_to_search' must a list."
+
+    # Handle edge cases:
+    # Empty list or element is outside of the range of the list.
+    if list_to_search == []:
+        return False
+    if element_to_find > list_to_search[-1]:
+        return False
+    if element_to_find < list_to_search[0]:
+        return False
     
     low = 0
     high = len(list_to_search) - 1
