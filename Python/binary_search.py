@@ -10,7 +10,7 @@ def binary_search(element_to_find, list_to_search):
     Returns:
         bool: True if the target element is found, False otherwise.
     """
-    assert isinstance(list_to_search, list); "'list_to_search' must a list."
+    assert isinstance(list_to_search, list), "'list_to_search' must a list."
     
     low = 0
     high = len(list_to_search) - 1
