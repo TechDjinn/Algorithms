@@ -14,16 +14,16 @@ def binary_search(element_to_find, list_to_search):
     IMPORTANT:
         Please observe that the list MUST be sorted in acending order.
     """
-    assert isinstance(list_to_search, list), "'list_to_search' must a list."
+    assert isinstance(list_to_search, list), "list_to_search must be a list."
 
     # Handle edge cases:
     # Empty list or element is outside of the range of the list.
     if list_to_search == []:
-        return False
+        return False    # This list is empty.
     if element_to_find > list_to_search[-1]:
-        return False
+        return False    # Element is larger than largest in list.
     if element_to_find < list_to_search[0]:
-        return False
+        return False    # Element is small than smallest in list.
     
     low = 0
     high = len(list_to_search) - 1
