@@ -24,7 +24,6 @@ def isPalindrome(candidate, case_sensitive = False, ignore_spaces = True):
         # Force all characters to lowercase.
         candidate = candidate.lower()
     if ignore_spaces == True:
-        print("Ignore spaces")
         # Remove all spaces / ignores spaces in string.
         candidate = "".join(candidate.split())
 
