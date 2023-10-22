@@ -9,16 +9,11 @@ def fibonacci(n):
     Returns:
         list: a list of the first 'n' fibonacci numbers.
     """
-    assert isinstance(n, int) and n >= 1, "'n' must be a positive int."
+    assert isinstance(n, int) and n >= 0, "'n' must be a non-negative int."
     
-    fibonacci_list = [0, 1]
-    a = fibonacci_list[0]
-    b = fibonacci_list[1]
-    c = a + b
+    fibonacci = [0, 1]
 
-    while len(fibonacci_list) < n:
-        fibonacci_list.append(c)
-        (a, b) = (b, c)
-        c = a + b
+    for i in range(1, n - 1):
+        fibonacci.append(fibonacci[i] + fibonacci[i-1])
 
-    return fibonacci_list[:n]
+    return fibonacci[:n]
