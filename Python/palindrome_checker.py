@@ -24,14 +24,14 @@ def isPalindrome(candidate, case_sensitive = False, ignore_spaces = True):
         # Force all characters to lowercase.
         candidate = candidate.lower()
     if ignore_spaces == True:
-        # Remove all spaces / ignores spaces in string.
+        # Remove all spaces in order to ignore them in the string.
         candidate = "".join(candidate.split())
 
     # Handle empty string
     if len(candidate) == 0:
         return False
     
-    # Recursion
+    # Recursion to determine if palindrome.
     elif len(candidate) == 1:
         return True
     elif len(candidate) == 2:
