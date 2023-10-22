@@ -1,7 +1,7 @@
 def linear_search(element_to_find, list_to_search):
     """
     Description:
-        Perform a linear search to find the target element in the content.
+        Linear search to determine if element is in the provided list.
 
     Arguments:
         element_to_find (any): The element to search for.
