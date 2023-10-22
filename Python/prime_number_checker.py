@@ -12,9 +12,10 @@ def isPrime(candidate):
     Returns:
         bool: True if the candidate is prime. False otherwise.
     """
-    err_msg = "Invalid input: 'candidate' must be a non-negative integer."
-    assert isinstance(candidate, int), err_msg
-    assert candidate >= 0, err_msg
+    # Error handling
+    error_msg = "Invalid input: 'candidate' must be a non-negative integer."
+    assert isinstance(candidate, int), error_msg
+    assert candidate >= 0, error_msg
 
     # Special cases
     if candidate <= 1:
@@ -29,4 +30,5 @@ def isPrime(candidate):
         if candidate % i == 0:
             return False
         
+    # Went through the for-loop: divisable by none. Must be prime.
     return True
