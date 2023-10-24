@@ -1,13 +1,13 @@
 function main(){
-    let n = 6;
-    console.log(factorial_recursive(n));
+    let number = 6;
+    console.log(factorial_recursive(number));
 }
 
-function factorial_recursive(n){
-    if (n <= 1){
-        return 1;
+function factorial_recursive(number){
+    if (number <= 1){
+        return 1;   // Base case
     } else {
-        return n * factorial_recursive(n-1);
+        return number * factorial_recursive(number - 1);
     }
 }
 
