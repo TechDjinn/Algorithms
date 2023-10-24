@@ -3,7 +3,6 @@ function main(){
     fizzbuzz();
 }
 
-
 function fizzbuzz(){
     for (let i = 1; i <= 100; i++){
         if (i % 15 == 0){
@@ -17,6 +16,5 @@ function fizzbuzz(){
         }
     }
 }
-
 
 main();
