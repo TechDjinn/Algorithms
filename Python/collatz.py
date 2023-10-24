@@ -6,15 +6,15 @@ def main():
 def collatz(n):
     """
     Description:
-		Function takes a positive integer,
+        Function takes a positive integer,
         and returns the Collatz sequence for that integer.
         (e.g. collatz(5) = [5, 16, 8, 4, 2, 1])
-	
-	Arguments:
-		n: Integer >= 1
-	
-	Returns:
-		list: A list of the Collatz sequence for 'n'
+    
+    Arguments:
+        n: Integer >= 1
+    
+    Returns:
+        list: A list of the Collatz sequence for 'n'
     """
     assert isinstance(n, int) and n >= 1, "'n' must be a positivt integer."
 
