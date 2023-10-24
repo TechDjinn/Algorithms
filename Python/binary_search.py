@@ -14,7 +14,8 @@ def binary_search(element_to_find, list_to_search):
     IMPORTANT:
         Please observe that the list MUST be sorted in acending order.
     """
-    assert isinstance(list_to_search, list), "list_to_search must be a list."
+    error_message = "list_to_search must be a list."
+    assert isinstance(list_to_search, list), error_message
 
     # Handle edge cases:
     # Empty list or element is outside of the range of the list.
