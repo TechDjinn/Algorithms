@@ -19,6 +19,7 @@ def gcd(a, b):
     assert isinstance(a, int) and a > 0, "'a' must be a positive int"
     assert isinstance(b, int) and b > 0, "'b' must be a positive int"
     
+    # Tip: See explaination of principle in docstring.
     while a != b:
         if a > b:
             a = a - b
