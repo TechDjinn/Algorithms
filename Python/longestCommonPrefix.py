@@ -12,5 +12,3 @@ def longestCommonPrefix(strs):
                 
     # All strings are equal.
     return strs[0][:i]
-
-print(longestCommonPrefix(["abcde", "abcf", "abkli"]))
