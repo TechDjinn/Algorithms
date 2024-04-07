@@ -29,3 +29,9 @@ Bubble Sort is a basic sorting algorithm that repeatedly compares adjacent eleme
 
 Scripted languages: 
 - Python
+
+### SelectionSort
+Selection sort is a simple sorting algorithm that repeatedly finds the minimum element from the unsorted portion of an array and swaps it with the element at the beginning of the unsorted portion.
+
+Scripted languages: 
+- Python
