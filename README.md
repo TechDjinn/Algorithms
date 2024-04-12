@@ -11,6 +11,7 @@ Understanding and applying the appropriate searching algorithm are a fundamental
 Binary search is a fast search algorithm that works on sorted arrays by repeatedly dividing the search interval in half, narrowing down the possible locations of the target element.
 
 Scripted languages: 
+- C
 - Python
 
 ### LinearSearch
