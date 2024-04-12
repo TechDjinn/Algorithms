@@ -17,6 +17,7 @@ Scripted languages:
 Linear search is a straightforward searching algorithm that sequentially checks each element in a list until it finds the target element or reaches the end of the list.
 
 Scripted languages: 
+- C
 - Python
 
 <hr>
